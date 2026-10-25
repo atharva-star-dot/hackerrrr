@@ -1,0 +1,16 @@
+{
+  "id": "custom_01",
+  "title": "Stale Snapshot Temporal Boundary",
+  "description": "Snapshot captured on 2026-09-17 shows account PRESENT, but audit_at is 2026-09-15 where evidence_92 shows account ABSENT (404).",
+  "request": {
+    "case_id": "case_custom_01",
+    "email": "almeida.mariana@gmail.com",
+    "requested_at": "2026-08-30T12:00:00Z",
+    "reported_status": "COMPLETE",
+    "reported_at": "2026-09-02T12:00:00Z",
+    "audit_at": "2026-09-15T12:00:00Z",
+    "request_text": "Please confirm my account is deleted."
+  },
+  "expected_status": "COMPLETE",
+  "test_rule": "Must ignore evidence_02 captured after audit_at (2026-09-17)."
+}

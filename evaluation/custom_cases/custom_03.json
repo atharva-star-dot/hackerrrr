@@ -1,0 +1,16 @@
+{
+  "id": "custom_03",
+  "title": "Active Sync Recreating Deleted Data",
+  "description": "Data flow integration is enabled and can replicate deleted user profile back into replica.",
+  "request": {
+    "case_id": "case_custom_03",
+    "email": "leila.haddad@yahoo.com",
+    "requested_at": "2026-08-25T10:00:00Z",
+    "reported_status": "COMPLETE",
+    "reported_at": "2026-08-27T10:00:00Z",
+    "audit_at": "2026-09-02T23:30:00Z",
+    "request_text": "Please delete all my records completely."
+  },
+  "expected_status": "INCOMPLETE",
+  "test_rule": "Active data flow requires DISABLE_DATA_FLOW before dependent records."
+}

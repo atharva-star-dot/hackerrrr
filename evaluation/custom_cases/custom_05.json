@@ -1,0 +1,16 @@
+{
+  "id": "custom_05",
+  "title": "Non-English Non-Deletion Request",
+  "description": "German request asking for data export and to keep the account active.",
+  "request": {
+    "case_id": "case_custom_05",
+    "email": "clara.schmidt@web.de",
+    "requested_at": "2026-09-01T10:00:00Z",
+    "reported_status": "NOT_STARTED",
+    "reported_at": "2026-09-01T10:00:00Z",
+    "audit_at": "2026-09-05T10:00:00Z",
+    "request_text": "Bitte senden Sie mir eine Kopie meiner Daten im portablen Format. Schlie\u00dfen Sie mein Konto nicht, ich m\u00f6chte es weiterhin aktiv nutzen."
+  },
+  "expected_status": "NOT_APPLICABLE",
+  "test_rule": "Non-deletion requests must return NOT_APPLICABLE with empty steps."
+}

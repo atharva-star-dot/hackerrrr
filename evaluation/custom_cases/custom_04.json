@@ -1,0 +1,16 @@
+{
+  "id": "custom_04",
+  "title": "Historical-Only Email Identification",
+  "description": "Request submitted with old email address changed in user_audit_log 3 months prior.",
+  "request": {
+    "case_id": "case_custom_04",
+    "email": "minjun.kim90@gmail.com",
+    "requested_at": "2026-08-24T12:00:00Z",
+    "reported_status": "COMPLETE",
+    "reported_at": "2026-08-25T12:00:00Z",
+    "audit_at": "2026-09-15T12:00:00Z",
+    "request_text": "Delete my account tied to this email."
+  },
+  "expected_status": "INCOMPLETE",
+  "test_rule": "Must resolve historical email to user_12 and find tied resources."
+}
